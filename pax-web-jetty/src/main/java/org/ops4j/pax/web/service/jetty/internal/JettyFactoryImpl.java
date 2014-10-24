@@ -93,6 +93,9 @@ class JettyFactoryImpl
         connector.setKeyPassword( sslKeyPassword );
         connector.setHost( host );
 
+        // Fix for POODLE bug
+        connector.getSslContextFactory().addExcludeProtocols("SSLv3");
+
         connector.setNeedClientAuth( isClientAuthNeeded );
         connector.setWantClientAuth( isClientAuthWanted );
 
