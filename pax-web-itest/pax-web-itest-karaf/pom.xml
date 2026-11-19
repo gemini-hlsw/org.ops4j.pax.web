@@ -71,14 +71,14 @@
 			<groupId>ch.qos.logback</groupId>
 			<artifactId>logback-core</artifactId>
 			<scope>test</scope>
-			<version>1.0.6</version>
+			<version>1.5.34</version>
 		</dependency>
 
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
 			<artifactId>logback-classic</artifactId>
 			<scope>test</scope>
-			<version>1.0.6</version>
+			<version>1.2.13</version>
 		</dependency>
 
 		<dependency>

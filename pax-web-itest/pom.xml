@@ -22,7 +22,7 @@
 	<properties>
 		<jsf-myfaces.version>2.2.6-SNAPSHOT</jsf-myfaces.version>
 		<version.pax-exam>4.2.0</version.pax-exam>
-		<version.http-client>4.3.2</version.http-client>
+		<version.http-client>4.5.13</version.http-client>
 		<version.httpcore>4.3.2</version.httpcore>
 		<dependency.jetty-test.version>8.1.9.v20130131</dependency.jetty-test.version>
 	</properties>
@@ -350,12 +350,12 @@
 			<dependency>
 				<groupId>ch.qos.logback</groupId>
 				<artifactId>logback-core</artifactId>
-				<version>1.0.6</version>
+				<version>1.5.34</version>
 			</dependency>
 			<dependency>
 				<groupId>ch.qos.logback</groupId>
 				<artifactId>logback-classic</artifactId>
-				<version>1.0.6</version>
+				<version>1.2.13</version>
 			</dependency>
 
 			<dependency>
