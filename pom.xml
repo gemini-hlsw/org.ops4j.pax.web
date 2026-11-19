@@ -78,7 +78,7 @@
 		<dependency.base.version>1.4.0</dependency.base.version>
 		<dependency.swissbox.version>1.8.0</dependency.swissbox.version>
 		<dependency.jetty.version>9.2.3.v20140905</dependency.jetty.version>
-		<dependency.jasper.version>6.0.29</dependency.jasper.version>
+		<dependency.jasper.version>6.0.47</dependency.jasper.version>
 		<dependency.jstl.version>1.2</dependency.jstl.version>
 		<dependency.fileinstall.version>3.1.4</dependency.fileinstall.version>
 		<dependency.commons-logging.version>1.1.1</dependency.commons-logging.version>
@@ -508,7 +508,7 @@
 			<dependency>
 				<groupId>junit</groupId>
 				<artifactId>junit</artifactId>
-				<version>4.9</version>
+				<version>4.13.1</version>
 				<scope>test</scope>
 			</dependency>
 			<dependency>
